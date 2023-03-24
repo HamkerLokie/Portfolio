@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Gruppo&family=Josefin+Sans:wght@600&family=Righteous&family=Tilt+Neon&display=swap');
+
+
+.secondpara {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0em;
+    min-height: 100vh;
+    position: relative;
+}
+
+.title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+
+}
+
+.title p {
+    color: wheat;
+}
+
+.title div {
+    padding-bottom: 1em;
+}
+
+.title hr {
+    width: 80%;
+    margin: auto auto;
+}
+
+.description {
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Righteous', cursive;
+    word-spacing: 0.6em;
+    width: 50%;
+    margin: auto auto;
+    padding: 1em 0em;
+    /* margin-bottom: 5%; */
+    margin-top: 2%;
+}
+
+.records {
+    display: flex;
+    color: white;
+    margin: auto auto;
+}
+
+.records .cads {
+    padding: .6em 1.3em;
+    font-size: 1.5em;
+    border-right: 1px solid;
+}
+
+
+.cads:nth-last-child(1) {
+    border-right: 0px;
+}
+
+
+.cads p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cads span {
+    font-family: 'Righteous', cursive;
+
+}
+
+.th-desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4em;
+    width: 90%;
+    margin-top: 5%;
+    padding: 0em 1em;
+}
+
+.services {
+    display: flex;
+    width: 90%;
+}
+
+.services .icon img {
+    width: 150%;
+
+}
+
+.services .label {
+    padding: 0em .6em;
+    margin: 0 3%;
+}
+
+.services .tit {
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.label .desc {
+    color: black;
+
+}
+
+
+
+/* Works */
+.works {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+
+
+.project-item {
+    margin: auto auto;
+    display: flex;
+    width: 70%;
+    background: red;
+    padding: 2em 4em;
+
+}
+
+.project-item:nth-child(1) {
+    margin-top: 3%;
+}
+
+.project-name p {
+    font-family: 'Josefin Sans';
+    font-size: 3em;
+}
+
+.project-name div {
+    text-align: center;
+    margin: auto auto;
+    font-family: 'Tilt Neon';
+    font-size: 1em;
+    margin-top: 1%;
+    width: 80%;
+}
+
+.project-name {
+    margin-top: 2%;
+}
+
+.project-image {
+    width: 150%;
+
+}
+
+.project-image img {
+    width: 100%;
+    height: 85%;
+    margin-top: 1.8em;
+}
+
+.project-image a {
+    color: white;
+    position: relative;
+    top: -50%;
+    opacity: 0;
+    padding: .6em 3em;
+    justify-content: center;
+}
+
+
+.project-image a:hover{
+    opacity: .3;
+    background: red;
+}
+
+.project-image img:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: .3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-image:hover a {
+    opacity: 1;
+    animation: slidedown .51s ease-in-out;
+}
+
+@keyframes slidedown {
+    from{
+        top: -50%;
+    }
+    from{
+        top: -70%;
+    }
+}
+
+
+
+
+.title-fp {
+    margin-top: 3%;
+}
+
+.contact {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 70%;
+    margin: auto auto;
+    display: flex;
+    color: white;
+}
+
+.contact .form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-family: 'Righteous', cursive;
+    margin-right: 2%;
+    padding: 0em 6em;
+}
+
+.contact .form h3 {
+    padding: .6em 3em;
+}
+
+.contact .form form {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.contact .form form input {
+    padding: 1em 1em;
+    text-align: left;
+    outline: none;
+    margin: 2% 0%;
+    border: 0px;
+    background: transparent;
+    color: white;
+    font-size: 1em;
+    border-bottom: 2px solid rgb(123, 120, 120);
+
+}
+
+.contact .form form input:hover {
+    border-bottom: 2px solid green;
+}
+
+#message {
+    height: 180px;
+    text-align: justify;
+}
+
+input::placeholder {
+    color: white;
+    font-size: medium;
+    font-family: 'Aclonica', sans-serif;
+
+}
+
+
+
+.buttons button {
+    padding: .5em 1.8em;
+    margin: 2%;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    border: none;
+    outline: none;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.buttons button:nth-child(2) {
+    background-color: green;
+}
+
+
+.contact .credentials {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    background: rgb(53, 52, 52);
+    justify-content: center;
+
+}
+
+.credentials .title {
+    color: red;
+    font-size: 1em;
+    width: 100%;
+}
+
+.title address,
+.title i {
+    color: white;
+}
+
+.init {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

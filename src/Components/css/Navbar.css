@@ -1,0 +1,33 @@
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.nav-list div{
+    text-align: start;
+    color: red;
+    font-weight: 400;
+
+}
+
+
+.nav-list ul li {
+    list-style-type: none;
+    text-align: start;
+    margin: 3% 0%;
+    padding: 0.8em 0em;
+}
+
+.nav-list i {
+    padding: .6em 0em;
+    text-align: start;
+    font-size: small;
+}
+
+.nav-list ul li a{
+    text-decoration: none;
+    display: inline-block;
+}
